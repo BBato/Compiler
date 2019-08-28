@@ -11,8 +11,7 @@ addons:
 before_install:
   # Save path to the git respository
   - PROJECT_PATH=$(pwd)
-  - echo -e "machine github.com\n  login $CI_USER_TOKEN" > ~/.netrc
-install:
+  install:
   # Install ESP32 toolchain following steps as desribed
   # in http://esp-idf.readthedocs.io/en/latest/linux-setup.html
   #
@@ -27,7 +26,7 @@ install:
   # Make xtensa-esp32-elf available for all terminal sessions
   - export PATH=$PATH:$HOME/esp/xtensa-esp32-elf/bin
   # Get ESP-IDF from github
-  - git clone --recursive --branch release/v3.2 https://github.com/espressif/esp-idf.git
+  - git clone --recursive --branch https://github.com/espressif/esp-idf.git
   #- git clone --recursive https://github.com/espressif/esp-idf.git
   # Set the path to ESP-IDF directory
   - export IDF_PATH=~/esp/esp-idf

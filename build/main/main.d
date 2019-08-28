@@ -1,4 +1,4 @@
-main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
+main.o: /home/baranb2/esp/Compiler/main/main.cpp \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/sys/reent.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -14,7 +14,7 @@ main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
  /home/baranb2/esp/esp-idf/components/newlib/include/stdint.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/baranb2/esp/gas-esp-idf/build/include/sdkconfig.h \
+ /home/baranb2/esp/Compiler/build/include/sdkconfig.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/baranb2/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/baranb2/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -78,79 +78,79 @@ main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/limits.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/Wire/src/Wire.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/Wire/src/Wire.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/inttypes.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/string.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/math.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-log.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-log.h \
  /home/baranb2/esp/esp-idf/components/log/include/esp_log.h \
  /home/baranb2/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-matrix.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-uart.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-gpio.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-touch.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-dac.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-adc.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-spi.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-i2c.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-matrix.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-uart.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-gpio.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-touch.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-dac.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-adc.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-spi.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-i2c.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/event_groups.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/timers.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/task.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-ledc.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-rmt.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-sigmadelta.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-timer.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-bt.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-psram.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-cpu.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-ledc.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-rmt.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-sigmadelta.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-timer.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-bt.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-psram.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-cpu.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Stream.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Print.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/WString.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Stream.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Print.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/WString.h \
  /home/baranb2/esp/esp-idf/components/newlib/include/ctype.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/pgmspace.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Printable.h \
- /home/baranb2/esp/gas-esp-idf/main/../components/arduino/libraries/Mutichannel_Gas_Sensor-master/MutichannelGasSensor.h \
- /home/baranb2/esp/gas-esp-idf/main/../components/arduino/libraries/Wia_LoRaWAN_Library/Wia_LoRaWAN_Library.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Arduino.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/pgmspace.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Printable.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/Mutichannel_Gas_Sensor-master/MutichannelGasSensor.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/Wia_LoRaWAN_Library/Wia_LoRaWAN_Library.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Arduino.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/baranb2/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp8266-compat.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/stdlib_noniso.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/binary.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/WCharacter.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Stream.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/IPAddress.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/WString.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Printable.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Client.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Server.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Udp.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/IPAddress.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/HardwareSerial.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Esp.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/variants/esp32/pins_arduino.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/config.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_config_preconditions.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/../../project_config/lmic_project_config.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_env.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic_types.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/hal.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase_us915.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan_us915.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_us_like.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_util.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/hal/hal.h \
- /home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic_hal_configuration.h
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp8266-compat.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/stdlib_noniso.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/binary.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/WCharacter.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Stream.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/IPAddress.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/WString.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Printable.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Client.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Server.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Udp.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/IPAddress.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/HardwareSerial.h \
+ /home/baranb2/esp/Compiler/components/arduino/cores/esp32/Esp.h \
+ /home/baranb2/esp/Compiler/components/arduino/variants/esp32/pins_arduino.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/config.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_config_preconditions.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/../../project_config/lmic_project_config.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_env.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic_types.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/hal.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase_us915.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan_us915.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_us_like.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_util.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/hal/hal.h \
+ /home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic_hal_configuration.h
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -182,7 +182,7 @@ main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/baranb2/esp/gas-esp-idf/build/include/sdkconfig.h:
+/home/baranb2/esp/Compiler/build/include/sdkconfig.h:
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -310,9 +310,9 @@ main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/Wire/src/Wire.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/Wire/src/Wire.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal.h:
 
 /home/baranb2/esp/esp-idf/components/newlib/include/inttypes.h:
 
@@ -322,29 +322,29 @@ main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
 
 /home/baranb2/esp/esp-idf/components/newlib/include/math.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-log.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-log.h:
 
 /home/baranb2/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/baranb2/esp/esp-idf/components/log/include/esp_log_internal.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-matrix.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-matrix.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-uart.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-uart.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-gpio.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-gpio.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-touch.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-touch.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-dac.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-dac.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-adc.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-adc.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-spi.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-spi.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-i2c.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-i2c.h:
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/event_groups.h:
 
@@ -352,107 +352,107 @@ main.o: /home/baranb2/esp/gas-esp-idf/main/main.cpp \
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/task.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-ledc.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-ledc.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-rmt.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-rmt.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-sigmadelta.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-sigmadelta.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-timer.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-timer.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-bt.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-bt.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-psram.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-psram.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp32-hal-cpu.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp32-hal-cpu.h:
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Stream.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Stream.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Print.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Print.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/WString.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/WString.h:
 
 /home/baranb2/esp/esp-idf/components/newlib/include/ctype.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/pgmspace.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/pgmspace.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Printable.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Printable.h:
 
-/home/baranb2/esp/gas-esp-idf/main/../components/arduino/libraries/Mutichannel_Gas_Sensor-master/MutichannelGasSensor.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/Mutichannel_Gas_Sensor-master/MutichannelGasSensor.h:
 
-/home/baranb2/esp/gas-esp-idf/main/../components/arduino/libraries/Wia_LoRaWAN_Library/Wia_LoRaWAN_Library.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/Wia_LoRaWAN_Library/Wia_LoRaWAN_Library.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Arduino.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Arduino.h:
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 
 /home/baranb2/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/esp8266-compat.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/esp8266-compat.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/stdlib_noniso.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/stdlib_noniso.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/binary.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/binary.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/WCharacter.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/WCharacter.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Stream.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Stream.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/IPAddress.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/IPAddress.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/WString.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/WString.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Printable.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Printable.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Client.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Client.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Server.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Server.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Udp.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Udp.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/IPAddress.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/IPAddress.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/HardwareSerial.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/HardwareSerial.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/cores/esp32/Esp.h:
+/home/baranb2/esp/Compiler/components/arduino/cores/esp32/Esp.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/variants/esp32/pins_arduino.h:
+/home/baranb2/esp/Compiler/components/arduino/variants/esp32/pins_arduino.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/config.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/config.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_config_preconditions.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_config_preconditions.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/../../project_config/lmic_project_config.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/../../project_config/lmic_project_config.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_env.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_env.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic_types.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/oslmic_types.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/hal.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/hal.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase_us915.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lorabase_us915.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan_us915.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_bandplan_us915.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_us_like.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_us_like.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_util.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/lmic/lmic_util.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/hal/hal.h:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/hal/hal.h:
 
-/home/baranb2/esp/gas-esp-idf/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic_hal_configuration.h:
-/home/baranb2/esp/gas-esp-idf/main/./main.cpp:
+/home/baranb2/esp/Compiler/components/arduino/libraries/LMIC_ESP32/src/arduino_lmic_hal_configuration.h:
+/home/baranb2/esp/Compiler/main/./main.cpp:
