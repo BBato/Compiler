@@ -39,4 +39,10 @@ script:
   # Update configuration so that kconfig doesn't start interactive mode
   - make defconfig
   # Build project from the git repository
-  - make -j4
+
+  - for file in ./test_scripts/*
+  - do
+      - cp "$file" "./main/main.cpp"
+      - echo Compiling $file ----------------------\n\n
+      - make -j4
+  - done
