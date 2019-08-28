@@ -37,6 +37,6 @@ script:
   # Go back to the git repository
   - cd $PROJECT_PATH
   # Update configuration so that kconfig doesn't start interactive mode
-  # - make defconfig
+ - make defconfig
   # Build project from the git repository
   - make -j4
