@@ -8,7 +8,7 @@
 #endif
 #include <Wire.h>
 
-#define uS_TO_S_FACTOR 1000000  /* Conversion factor for micro seconds to seconds */
+#define uS_TO_S_FACTOR 1000000  /* Conversion factor for micro seconds to secondsasdsa */
 
 #include "MutichannelGasSensor.h"
 #include "Wia_LoRaWAN_Library.h"
