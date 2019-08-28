@@ -40,9 +40,11 @@ script:
   - make defconfig
   # Build project from the git repository
 
-  - for file in ./test_scripts/*
-  - do
-      - cp "$file" "./main/main.cpp"
-      - echo Compiling $file ----------------------\n\n
-      - make -j4
-  - done
+  - |
+    for file in ./test_scripts/* 
+      do
+        cp "$file" "./main/main.cpp"
+        echo Compiling $file ----------------------\n\n
+        make -j4
+      done
+      
