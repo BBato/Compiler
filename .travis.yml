@@ -11,7 +11,7 @@ addons:
 before_install:
   # Save path to the git respository
   - PROJECT_PATH=$(pwd)
-  install:
+install:
   # Install ESP32 toolchain following steps as desribed
   # in http://esp-idf.readthedocs.io/en/latest/linux-setup.html
   #
