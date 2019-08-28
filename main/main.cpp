@@ -11,7 +11,7 @@
 #define uS_TO_S_FACTOR 1000000  /* Conversion factor for micro seconds to secondsasdsa */
 
 #include "MutichannelGasSensor.h"
-#include "Wia_LoRaWAN_Library.h"
+#include "../components/arduino/libraries/Wia_LoRaWAN_Library/Wia_LoRaWAN_Library.h"
 
 
 void loopTask(void *pvParameters)
